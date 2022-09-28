@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+.Topbar{
+  width:90vw;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 2vw;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.user{
+  display:flex;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.userinfo{
+  display:flex;
   flex-direction: column;
+}
+.username{
+  font-size: 20px;
+  text-align: right;
+}
+.logout-btn{
+  text-align: right;
+}
+a{
+  text-decoration: none;
+  color: rgb(122, 122, 122);
+}
+a:hover{
+  color: rgb(51, 51, 51);
+
+}
+.input{
+  height: 30px;
+  width: 160px;
+  border: 1px solid rgb(198, 198, 198);
+  border-radius: 3px;
+}
+.inputEdit{
+  height: 30px;
+  width: 160px;
+  border: 1px solid rgb(198, 198, 198);
+  border-radius: 3px;
+}
+.addshoe{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.addBrand{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 33vw;
+  margin: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Edit{
+  display: none
+}
+#savebtn{
+  display: none
+}
+#marqueInput{
+  display: none
+}
+#logoInput{
+  display: none
 }
